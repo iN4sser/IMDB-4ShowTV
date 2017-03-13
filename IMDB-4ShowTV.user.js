@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         IMDb 4ShowTV
-// @namespace    http://4show.tv
-// @version      0.2
+// @namespace    http://www.4show.tv
+// @version      0.3
 // @description  Find IMDb Movies and TV Shows on 4ShowTV
 // @author       iN4sser
-// @icon	 http://www.4show.cf/favicon.ico
+// @icon	 http://www.4show.tv/favicon.ico
 // @match        http*://www.imdb.com/title/*
 // @grant        none
 // ==/UserScript==
@@ -20,10 +20,10 @@ xhr.onload = function ()
     var imdbJSON = window.JSON.parse(xhr.responseText);
     var urls = 
         '<br />Search on 4ShowTV: ' +
-        '<a href="http://www.4show.cf/search?q=' +
+        '<a href="http://www.4show.tv/search?q=' +
         imdbJSON.Title +
         '" target="_blank">By Title</a><span class="ghost">|</span>' +
-        '<a href="http://www.4show.cf/search?q=' +
+        '<a href="http://www.4show.tv/search?q=' +
         imdbJSON.Title +
         ' ' +
         imdbJSON.Year +
