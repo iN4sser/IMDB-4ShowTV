@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IMDb 4ShowTV
 // @namespace    http://4show.tv
-// @version      0.1
+// @version      0.2
 // @description  Find IMDb Movies and TV Shows on 4ShowTV
 // @author       iN4sser
 // @icon	 http://www.4show.cf/favicon.ico
