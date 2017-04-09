@@ -22,7 +22,7 @@ xhr.onload = function ()
         '<br />Search on 4ShowTV: ' +
         '<a href="http://www.4show.tv/search?q=' +
         imdbJSON.Title +
-        '" target="_blank">By Title</a><span class="ghost">|</span>' +
+        '" target="_blank">Click here</a><span class="ghost">|</span>' +
         '<a href="http://www.4show.tv/search?q=' +
         imdbJSON.Title +
         ' ' +
