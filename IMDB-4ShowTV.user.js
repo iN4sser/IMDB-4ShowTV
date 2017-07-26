@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.0.5
+// @version        0.0.6
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           http://www.4show.tv/favicon.ico
 // @include        http://www.imdb.*/title/*
@@ -77,10 +77,9 @@ if(div && title && year){
     var tr = tab.appendChild(document.createElement("tr"));
 
     //4ShowTV
-    img = "http://i.imgur.com/Ijb7ENt.png";
+    img = "http://i.imgur.com/QremITw.png";
 
     buildCell(tr, "4ShowTV","http://www.4show.tv/search?q="+txt+" ", img);
-
 }
 
 function buildCell(container, title, href, image){
@@ -93,8 +92,8 @@ function buildCell(container, title, href, image){
     a.title=title;	
     var img = document.createElement("img");
     img.src = image;
-    img.setAttribute("height","16");//needed for Chrome
-    img.setAttribute("witdh","16");//needed for Chrome
+    img.setAttribute("height","20");//needed for Chrome
+    img.setAttribute("witdh","20");//needed for Chrome
 
     a.appendChild(img);
     var cell = container.insertCell(0);
@@ -112,4 +111,4 @@ function _addStyle(css){
             var node = document.createElement("style");
             node.type = "text/css";
             node.innerHTML = css;
-            heads[0].appendChild(node); }}}
+            heads[0].appendChild(node); }}} 
