@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.0.7
+// @version        0.0.8
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ico
 // @include        *://www.imdb.*/title/*
@@ -14,7 +14,7 @@
 // @grant          GM_getValue
 // @grant   	   GM_addStyle
 //original script by r3b31 forked by julian-a-schulte, includes code from other open source scripts
-// @namespace http://www.4show.tv
+// @namespace *://www.4show.tv
 // ==/UserScript==
 
 //gets the title and year of the movie
