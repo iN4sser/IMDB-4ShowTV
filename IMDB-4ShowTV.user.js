@@ -4,11 +4,11 @@
 // @name           IMDb 4ShowTV
 // @version        0.0.6
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
-// @icon           http://www.4show.tv/favicon.ico
-// @include        http://www.imdb.*/title/*
-// @include        http://imdb.*/title/*
-// @include        http://akas.imdb.*/title/*
-// @include        http://www.akas.imdb.*/title/*
+// @icon           *://www.4show.tv/favicon.ico
+// @include        *://www.imdb.*/title/*
+// @include        *://imdb.*/title/*
+// @include        *://akas.imdb.*/title/*
+// @include        *://www.akas.imdb.*/title/*
 // @grant          GM_setValue
 // @grant	       GM_xmlhttpRequest
 // @grant          GM_getValue
@@ -111,4 +111,4 @@ function _addStyle(css){
             var node = document.createElement("style");
             node.type = "text/css";
             node.innerHTML = css;
-            heads[0].appendChild(node); }}} 
+            heads[0].appendChild(node); }}}  
