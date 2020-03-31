@@ -81,7 +81,7 @@ if(div && title && year){
     //4ShowTV
     img = "http://i.imgur.com/QremITw.png";
 
-    buildCell(tr, "4ShowTV","http://www.4show.tv/search?q="+txt+" ", img);
+    buildCell(tr, "4ShowTV","https://www.4show.tv/watch/"+txt+" ", img);
 }
 
 function buildCell(container, title, href, image){
