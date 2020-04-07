@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.0.9
+// @version        0.1.0
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ic
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -74,14 +74,29 @@ if(div && title && year){
     var tab = div.insertBefore(document.createElement("table"), div.firstChild);
 
     tab.id = "gm_links";
-    _addStyle("@namespace url(http://www.w3.org/1999/xhtml); #gm_links td { width:50px; padding:0px } #gm_links img { margin:0 1px 0 0 } #gm_links a { vertical-align:top; font-weight:bold };");
+    _addStyle("@namespace url(http://www.w3.org/1999/xhtml); table#gm_links { direction:rtl; } #gm_links td { width:50px;padding-right:10px; } #gm_links img { margin:0 1px 0 0 } #gm_links a { vertical-align:top; font-weight:bold };");
 
     var tr = tab.appendChild(document.createElement("tr"));
 
     //4ShowTV
-    img = "http://i.imgur.com/QremITw.png";
-
-    buildCell(tr, "4ShowTV","https://www.4show.tv/watch/"+txt+".html ", img);
+    img = "https://i.imgur.com/QremITw.png";
+    buildCell(tr, "فور شو","https://www.4show.tv/search?q="+txt+" ", img);
+  
+    //Movs4u
+    img = "https://i.imgur.com/ipCPC1G.png";
+    buildCell(tr, "موفيز فور يو","https://www.mvs4u.to/?s="+txt+" ", img);
+  
+    //Cima4u
+    img = "https://i.imgur.com/dObEt33.png";
+    buildCell(tr, "سيما فور يو","http://w.cima4u.tv/?s="+txt+" ", img);
+  
+    //Shahid4u
+    img = "https://i.imgur.com/dgjhhSD.png";
+    buildCell(tr, "شاهد فور يو","https://ww.shahid4u.net/search?s="+txt+" ", img);
+  
+    //akoam
+    img = "https://i.imgur.com/83uGmGM.png";
+    buildCell(tr, "اكوام","https://akoam.net/search?q="+txt+" ", img);
 }
 
 function buildCell(container, title, href, image){
