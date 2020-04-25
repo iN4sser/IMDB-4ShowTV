@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.1.5
+// @version        0.1.6
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ic
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -93,6 +93,10 @@ if(div && title && year){
     //Shahid4u
     img = "https://i.imgur.com/dgjhhSD.png";
     buildCell(tr, "شاهد فور يو","https://ww.shahid4u.net/search?s="+txt+" ", img);
+  
+    //EgyBest
+    img = "https://i.imgur.com/XRF1afX.png";
+    buildCell(tr, "ايجي بست","https://egy.best/explore/?q="+txt+" ", img);
 
     //akoam
     img = "https://i.imgur.com/83uGmGM.png";
