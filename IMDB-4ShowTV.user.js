@@ -98,9 +98,17 @@ if(div && title && year){
     img = "https://i.imgur.com/83uGmGM.png";
     buildCell(tr, "اكوام","https://akoam.net/search/"+txt+" ", img);
     
-    //mycima
-    img = "https://i.imgur.com/p7i0Zn7.png";
-    buildCell(tr, "ماي سيما","https://mycima.vip/search/"+txt+" ", img);
+    //MyEgy
+    img = "https://i.imgur.com/9Nc2fH1.png";
+    buildCell(tr, "ماي ايجي","https://myegy.tv/latest?search="+txt+" ", img);
+    
+    //ArabSeed
+    img = "https://i.imgur.com/NMdro5w.png";
+    buildCell(tr, "عرب سيد","https://arabseed.net/search?s="+txt+" ", img);
+    
+    //MovizLand
+    img = "https://i.imgur.com/FSGbGxi.png";
+    buildCell(tr, "موفيز لاند","https://tv1.movizland.com/search/"+txt+" ", img);
 }
 
 function buildCell(container, title, href, image){
