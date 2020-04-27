@@ -92,7 +92,7 @@ if(div && title && year){
   
     //Shahid4u
     img = "https://i.imgur.com/dgjhhSD.png";
-    buildCell(tr, "شاهد فور يو","https://ww.shahid4u.net/search?s="+txt+" ", img);
+    buildCell(tr, "شاهد فور يو","https://w1.shahid4u.net/search?s="+txt+" ", img);
   
     //EgyBest
     img = "https://i.imgur.com/XRF1afX.png";
