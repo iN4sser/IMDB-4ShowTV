@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.1.6
+// @version        0.1.7
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ic
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -42,7 +42,7 @@ var imdb_regex = /\/title\/tt(\d{7})\//;
 var id = imdb_regex.exec(window.location.href)[1];
 
 //where to display the icons
-var div = document.evaluate ("//div[@class='slate_wrapper']", document, null,
+var div = document.evaluate ("//div[@class='title_block']", document, null,
                              XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 //get title only
 var title = document.evaluate ("//div[@class='title_wrapper']//h1", document, null,
