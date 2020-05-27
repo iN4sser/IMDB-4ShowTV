@@ -84,7 +84,7 @@ if(div && title && year){
   
     //Movs4u
     img = "https://i.imgur.com/ipCPC1G.png";
-    buildCell(tr, "موفيز فور يو","https://www.mvs4u.to/?s="+txt+" ", img);
+    buildCell(tr, "موفيز فور يو","https://www.movs4u.live/?s="+txt+" ", img);
   
     //Cima4u
     img = "https://i.imgur.com/dObEt33.png";
