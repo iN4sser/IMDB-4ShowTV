@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.1.9
+// @version        0.2.0
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ic
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -108,11 +108,11 @@ if(div && title && year){
     
     //ArabSeed
     img = "https://i.imgur.com/NMdro5w.png";
-    buildCell(tr, "عرب سيد","https://m2.arabseed.net/?s="+txt+" ", img);
+    buildCell(tr, "عرب سيد","https://arabseed.net/?s="+txt+" ", img);
     
     //MovizLand
     img = "https://i.imgur.com/FSGbGxi.png";
-    buildCell(tr, "موفيز لاند","https://tv1.movizland.com/search/"+txt+" ", img);
+    buildCell(tr, "موفيز لاند","https://movizland.com/search/"+txt+" ", img);
     
     //ArabTigers
     img = "https://i.imgur.com/ekwdO6Y.png";
