@@ -108,7 +108,7 @@ if(div && title && year){
     
     //ArabSeed
     img = "https://i.imgur.com/NMdro5w.png";
-    buildCell(tr, "عرب سيد","https://arabseed.net/search?s="+txt+" ", img);
+    buildCell(tr, "عرب سيد","https://m2.arabseed.net/search?s="+txt+" ", img);
     
     //MovizLand
     img = "https://i.imgur.com/FSGbGxi.png";
