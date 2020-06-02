@@ -117,6 +117,10 @@ if(div && title && year){
     //ArabTigers
     img = "https://i.imgur.com/ekwdO6Y.png";
     buildCell(tr, "عرب تايجرز","https://arabtigers.com/watch/?s="+txt+" ", img);
+    
+    //EgyHD
+    img = "https://i.imgur.com/ZpdbzZ6.png";
+    buildCell(tr, "EgyHD","https://egyhd.net/?s="+txt+" ", img);
 }
 
 function buildCell(container, title, href, image){
