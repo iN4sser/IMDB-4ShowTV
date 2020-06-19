@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.2.2
+// @version        0.2.1
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ic
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -74,7 +74,7 @@ if(div && title && year){
     var tab = div.insertBefore(document.createElement("table"), div.firstChild);
 
     tab.id = "gm_links";
-    _addStyle("@namespace url(http://www.w3.org/1999/xhtml); table#gm_links { direction:rtl; } #gm_links td { width:1%;padding-right:10px; } #gm_links img {  width: 100%;margin:0 1px 0 0 } #gm_links a { vertical-align:top; font-weight:bold };");
+    _addStyle("@namespace url(http://www.w3.org/1999/xhtml); table#gm_links { direction:rtl; } #gm_links td { width:1%;padding-right:1px; } #gm_links img {  width: 100%;margin:0 1px 0 0 } #gm_links a { vertical-align:top; font-weight:bold };");
 
     var tr = tab.appendChild(document.createElement("tr"));
 
