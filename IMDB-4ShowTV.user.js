@@ -74,7 +74,7 @@ if(div && title && year){
     var tab = div.insertBefore(document.createElement("table"), div.firstChild);
 
     tab.id = "gm_links";
-    _addStyle("@namespace url(http://www.w3.org/1999/xhtml); table#gm_links { direction:rtl; } #gm_links td { width:1%;padding-right:1px; } #gm_links img {  width: 100%;margin:0 1px 0 0 } #gm_links a { vertical-align:top; font-weight:bold };");
+    _addStyle("@namespace url(http://www.w3.org/1999/xhtml); table#gm_links { direction:rtl; } #gm_links td { width:auto;padding-right:1px; } #gm_links img {  max-width: 100px;width: 100%;margin:0 1px 0 0 } #gm_links a { vertical-align:top; font-weight:bold };");
 
     var tr = tab.appendChild(document.createElement("tr"));
 
@@ -97,8 +97,8 @@ if(div && title && year){
     //Shahid4u
     img = "https://i.imgur.com/dgjhhSD.png";
     buildCell(tr, "شاهد فور يو","https://shahid4u.cam/search?s="+txt+" ", img);
-  
-    //Shahid4u
+
+    //FaselHD
     img = "https://i.imgur.com/lcMTSVn.png";
     buildCell(tr, "فاصل اعلاني","https://www.faselhd.live/?s="+txt+" ", img);
   
