@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.2.1
+// @version        0.2.2
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ic
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -12,9 +12,9 @@
 // @include        *://akas.imdb.*/title/*
 // @include        *://www.akas.imdb.*/title/*
 // @grant          GM_setValue
-// @grant	       GM_xmlhttpRequest
+// @grant	         GM_xmlhttpRequest
 // @grant          GM_getValue
-// @grant   	   GM_addStyle
+// @grant   	     GM_addStyle
 //original script by r3b31 forked by julian-a-schulte, includes code from other open source scripts
 // @namespace *://www.4show.tv
 // ==/UserScript==
@@ -79,8 +79,12 @@ if(div && title && year){
     var tr = tab.appendChild(document.createElement("tr"));
 
     //4ShowTV
-    img = "https://i.imgur.com/QremITw.png";
+    img = "https://i.imgur.com/W0vaaew.png";
     buildCell(tr, "فور شو","https://www.4show.tv/search?q="+txt+" ", img);
+  
+    //4ShowTV
+    img = "https://i.imgur.com/FqRuxnz.png";
+    buildCell(tr, "فور شو","https://www.4show.me/search?q="+txt+" ", img);
   
     //Movs4u
     img = "https://i.imgur.com/ipCPC1G.png";
@@ -93,6 +97,10 @@ if(div && title && year){
     //Shahid4u
     img = "https://i.imgur.com/dgjhhSD.png";
     buildCell(tr, "شاهد فور يو","https://shahid4u.cam/search?s="+txt+" ", img);
+  
+    //Shahid4u
+    img = "https://i.imgur.com/lcMTSVn.png";
+    buildCell(tr, "فاصل اعلاني","https://www.faselhd.live/?s="+txt+" ", img);
   
     //EgyBest
     img = "https://i.imgur.com/XRF1afX.png";
