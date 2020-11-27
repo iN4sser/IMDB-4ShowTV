@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.2.1
+// @version        0.2.2
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           *://www.4show.tv/favicon.ic
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -88,7 +88,7 @@ if(div && title && year){
   
     //Movs4u
     img = "https://i.imgur.com/ipCPC1G.png";
-    buildCell(tr, "موفيز فور يو","https://www.movs4u.live/?s="+txt+" ", img);
+    buildCell(tr, "موفيز فور يو","https://www.movs4u.life/?s="+txt+" ", img);
   
     //Cima4u
     img = "https://i.imgur.com/dObEt33.png";
@@ -96,11 +96,11 @@ if(div && title && year){
   
     //Shahid4u
     img = "https://i.imgur.com/dgjhhSD.png";
-    buildCell(tr, "شاهد فور يو","https://shahid4u.cam/search?s="+txt+" ", img);
+    buildCell(tr, "شاهد فور يو","https://shahid4u.one/search?s="+txt+" ", img);
 
     //FaselHD
     img = "https://i.imgur.com/lcMTSVn.png";
-    buildCell(tr, "فاصل اعلاني","https://www.faselhd.live/?s="+txt+" ", img);
+    buildCell(tr, "فاصل اعلاني","https://www.faselhd.life/?s="+txt+" ", img);
   
     //EgyBest
     img = "https://i.imgur.com/XRF1afX.png";
@@ -108,7 +108,7 @@ if(div && title && year){
 
     //akoam
     img = "https://i.imgur.com/83uGmGM.png";
-    buildCell(tr, "اكوام","https://akoam.net/search/"+txt+" ", img);
+    buildCell(tr, "اكوام","https://akwam.co/search/"+txt+" ", img);
     
     //MyEgy
     img = "https://i.imgur.com/9Nc2fH1.png";
@@ -116,7 +116,7 @@ if(div && title && year){
     
     //ArabSeed
     img = "https://i.imgur.com/NMdro5w.png";
-    buildCell(tr, "عرب سيد","https://arabseed.net/?s="+txt+" ", img);
+    buildCell(tr, "عرب سيد","https://arabseed.cam/?s="+txt+" ", img);
     
     //MovizLand
     img = "https://i.imgur.com/FSGbGxi.png";
