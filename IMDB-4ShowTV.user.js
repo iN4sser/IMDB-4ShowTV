@@ -120,7 +120,7 @@ if(div && title && year){
     
     //MovizLand
     img = "https://i.imgur.com/FSGbGxi.png";
-    buildCell(tr, "موفيز لاند","https://movizland.com/search/"+txt+" ", img);
+    buildCell(tr, "موفيز لاند","https://movizland.online/search/"+txt+" ", img);
     
     //ArabTigers
     img = "https://i.imgur.com/ekwdO6Y.png";
