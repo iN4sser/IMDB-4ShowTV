@@ -2,9 +2,9 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.3.1
+// @version        0.3.2
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
-// @icon           *://www.4show.tv/favicon.ico
+// @icon           *//www.4show.tv/assets/images/favicon.ico
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
 // @downloadURL    https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
 // @include        *://www.imdb.*/title/*
