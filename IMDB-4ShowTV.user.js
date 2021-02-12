@@ -4,7 +4,7 @@
 // @name           IMDb 4ShowTV
 // @version        0.3.2
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
-// @icon           *//www.4show.tv/assets/images/favicon.ico
+// @icon           https://www.4show.tv/assets/images/favicon.ico
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
 // @downloadURL    https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
 // @include        *://www.imdb.*/title/*
