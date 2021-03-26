@@ -108,11 +108,11 @@ if(div && title && year){
 
     //akoam
     img = "https://i.imgur.com/83uGmGM.png";
-    buildCell(tr, "اكوام","https://kwam.ws/search/"+txt+" ", img);
+    buildCell(tr, "اكوام","https://akwam.ws/search/"+txt+" ", img);
     
     //MyCima
     img = "https://i.imgur.com/gds14Pd.png";
-    buildCell(tr, "ماي سيما","https://mycima.plus/search/"+txt+" ", img);
+    buildCell(tr, "ماي سيما","https://mycima.life/search/"+txt+" ", img);
     
     //ArabSeed
     img = "https://i.imgur.com/NMdro5w.png";
