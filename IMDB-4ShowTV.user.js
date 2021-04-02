@@ -92,7 +92,7 @@ if(div && title && year){
   
     //Cima4u
     img = "https://i.imgur.com/dObEt33.png";
-    buildCell(tr, "سيما فور يو","https://live.cima4u.live/?s="+txt+" ", img);
+    buildCell(tr, "سيما فور يو","https://w2.cima4u.live/?s="+txt+" ", img);
   
     //Shahid4u
     img = "https://i.imgur.com/dgjhhSD.png";
