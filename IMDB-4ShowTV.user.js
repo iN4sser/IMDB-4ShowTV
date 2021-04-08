@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.3.4
+// @version        0.3.5
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           https://www.4show.tv/assets/images/favicon.ico
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -92,11 +92,11 @@ if(div && title && year){
   
     //Cima4u
     img = "https://i.imgur.com/dObEt33.png";
-    buildCell(tr, "سيما فور يو","https://w2.cima4u.live/?s="+txt+" ", img);
+    buildCell(tr, "سيما فور يو","https://cima4u.show/?s="+txt+" ", img);
   
     //Shahid4u
     img = "https://i.imgur.com/dgjhhSD.png";
-    buildCell(tr, "شاهد فور يو","https://shahid4u.onl/search?s="+txt+" ", img);
+    buildCell(tr, "شاهد فور يو","https://shahid4u.dev/search?s="+txt+" ", img);
 
     //FaselHD
     img = "https://i.imgur.com/lcMTSVn.png";
@@ -112,7 +112,7 @@ if(div && title && year){
     
     //MyCima
     img = "https://i.imgur.com/gds14Pd.png";
-    buildCell(tr, "ماي سيما","https://mycima.onl/search/"+txt+" ", img);
+    buildCell(tr, "ماي سيما","https://mycima.ch/search/"+txt+" ", img);
     
     //ArabSeed
     img = "https://i.imgur.com/NMdro5w.png";
@@ -120,11 +120,11 @@ if(div && title && year){
     
     //MovizLand
     img = "https://i.imgur.com/FSGbGxi.png";
-    buildCell(tr, "موفيز لاند","https://sa.movizland.online/search/"+txt+" ", img);
+    buildCell(tr, "موفيز لاند","https://movizland.top/search/"+txt+" ", img);
     
     //CimaClub
     img = "https://i.imgur.com/24Hc4xf.png";
-    buildCell(tr, "cimaclub","https://cimaclub.pw/search?s="+txt+" ", img);
+    buildCell(tr, "cimaclub","https://cimaclub.best/search?s="+txt+" ", img);
 
     //Land4Movies
     img = "https://i.imgur.com/KrAbsTV.png";
