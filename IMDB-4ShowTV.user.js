@@ -2,7 +2,7 @@
 // @author         iN4sser
 // @license        GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @name           IMDb 4ShowTV
-// @version        0.3.6
+// @version        0.3.7
 // @description    Find IMDb Movies and TV Shows on 4ShowTV
 // @icon           https://www.4show.tv/assets/images/favicon.ico
 // @updateURL      https://github.com/iN4sser/IMDB-4ShowTV/raw/master/IMDB-4ShowTV.user.js
@@ -124,7 +124,7 @@ if(div && title && year){
     
     //CimaClub
     img = "https://i.imgur.com/24Hc4xf.png";
-    buildCell(tr, "cimaclub","https://cimaclub.ws/search?s="+txt+" ", img);
+    buildCell(tr, "cimaclub","https://www.cimaclub.store/search?s="+txt+" ", img);
 
     //Land4Movies
     img = "https://i.imgur.com/KrAbsTV.png";
